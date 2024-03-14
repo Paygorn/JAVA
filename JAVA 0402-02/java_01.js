@@ -1,0 +1,17 @@
+var name_orz; 
+name_orz="ОРЗ";
+var num_orz_mon;
+num_orz_mon=2;
+var num_orz_vtor;
+num_orz_vtor=3;
+var name_vetr;
+name_vetr=" Ветрянка";
+var num_vetr_vtor;
+num_vetr_vtor=1;
+var num_orz_wedn;
+num_orz_wedn=2;
+var num_vetr_wedn;
+num_vetr_wedn=4;
+list_orz_week=num_orz_mon+num_orz_vtor+num_orz_wedn+name_orz;
+list_vetr_week=num_vetr_vtor+num_vetr_wedn+name_vetr;
+summ=list_vetr_week+list_orz_week;
